@@ -264,4 +264,12 @@
     <integer name="config_smartCutoffTemperature">30</integer>
     <integer name="config_smartCutoffResumeTemperature">25</integer>
 
+    <!-- Whether device has physical tri state switch -->
+    <bool name="config_hasAlertSlider">false</bool>
+
+	<!-- The location of the devices physical tri state switch
+         0: Left side
+         1: Right side -->
+    <integer name="config_alertSliderLocation">0</integer>
+
 </resources>
